@@ -8,7 +8,6 @@ fitspphylo <- function (formula,data,spmatrix,phylomatrix,p) {
       out <- -10000
     } else {
       out <- res$logLik
-      if (res$logLik>0) {out <- -10000}
     }
     -out
   }
